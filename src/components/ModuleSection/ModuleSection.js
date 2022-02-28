@@ -9,9 +9,9 @@ import classes from './ModuleSection.module.css';
 const ModuleSection = () => {
 	return (
 		<section classname={classes.tracker__module}>
-			<TaskName></TaskName>
-			<TaskProgress></TaskProgress>
-			<TaskNotes></TaskNotes>
+			<TaskName />
+			<TaskProgress />
+			<TaskNotes />
 		</section>
 	);
 };

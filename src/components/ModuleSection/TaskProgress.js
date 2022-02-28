@@ -7,7 +7,9 @@ const TaskProgress = task => {
 		<div className={classes.progress}>
 			<progress
 				id={`${task}-progressbar`}
-				className={classes.progress_bar}></progress>
+				className={classes.progress_bar}
+				value='50'
+				max='100'></progress>
 		</div>
 	);
 };

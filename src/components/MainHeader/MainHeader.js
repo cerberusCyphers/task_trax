@@ -1,10 +1,12 @@
 import React from 'react';
 
+import classes from './MainHeader.module.css';
+
 const MainHeader = project => {
 	return (
-		<div className='tracker_heading'>
+		<header className={classes.heading}>
 			<h1>`${project} Progress`</h1>
-		</div>
+		</header>
 	);
 };
 export default MainHeader;

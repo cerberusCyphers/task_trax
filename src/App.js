@@ -1,11 +1,11 @@
-import Fragment from 'react';
+import { Fragment } from 'react';
 
 import Container from './components/Container/Container';
 
 function App() {
 	return (
 		<Fragment>
-			<Container></Container>
+			<Container />
 		</Fragment>
 	);
 }
