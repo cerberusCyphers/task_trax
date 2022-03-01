@@ -1,11 +1,14 @@
 import React from 'react';
 
-import classes from './MainHeader.module.css';
+import styles from './MainHeader.module.css';
 
 const MainHeader = project => {
+	const currentProject = 'Ziply Ops Development';
 	return (
-		<header className={classes.heading}>
-			<h1>`${project} Progress`</h1>
+		<header className={styles['tracker__heading']}>
+			<h1 className={styles['tracker__heading--h1']}>
+				{currentProject} Progress
+			</h1>
 		</header>
 	);
 };

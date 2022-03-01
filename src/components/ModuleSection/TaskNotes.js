@@ -1,13 +1,13 @@
 import React from 'react';
 
-import classes from './ModuleSection.module.css';
+import styles from './ModuleSection.module.css';
 
 const TaskNotes = task => {
 	return (
-		<div className={classes.notes}>
+		<div className={styles['tracker__module--notes']}>
 			<input
 				type='text'
-				className={classes.notes_input}
+				className={styles['tracker__module--notes_input']}
 				id={`${task}-notes`}></input>
 		</div>
 	);

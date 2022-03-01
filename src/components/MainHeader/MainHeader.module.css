@@ -1,5 +1,9 @@
-.heading {
+.tracker__heading {
 	color: rgb(46, 5, 5);
 	background-color: #fff;
-	border-radius: 5rem;
+	border-radius: 2rem;
+}
+
+.tracker__heading--h1 {
+	padding: 0.25rem 1rem;
 }

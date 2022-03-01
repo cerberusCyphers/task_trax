@@ -1,4 +1,10 @@
 .tracker {
-	background-image: url('../../../img/FB_IMG_1645056081883.jpg');
-	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+	/* background-image: url('../../../img/FB_IMG_1645056081883.jpg');
+	background-size: cover; */
+	height: 100%;
 }

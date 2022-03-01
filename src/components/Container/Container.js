@@ -1,15 +1,17 @@
 import React from 'react';
 
+import Button from '../Button/Button';
 import MainHeader from '../MainHeader/MainHeader';
 import ModuleSection from '../ModuleSection/ModuleSection';
 
-import classes from './Container.module.css';
+import styles from './Container.module.css';
 
 const Container = () => {
 	return (
-		<container className={classes.tracker} id='container'>
+		<container className={styles['tracker']} id='container'>
 			<MainHeader />
 			<ModuleSection />
+			<Button />
 		</container>
 	);
 };

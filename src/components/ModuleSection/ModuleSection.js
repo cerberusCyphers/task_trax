@@ -4,11 +4,11 @@ import TaskName from './TaskName';
 import TaskProgress from './TaskProgress';
 import TaskNotes from './TaskNotes';
 
-import classes from './ModuleSection.module.css';
+import styles from './ModuleSection.module.css';
 
 const ModuleSection = () => {
 	return (
-		<section classname={classes.tracker__module}>
+		<section className={styles['tracker__module']}>
 			<TaskName />
 			<TaskProgress />
 			<TaskNotes />

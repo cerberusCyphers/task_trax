@@ -4,8 +4,10 @@ import classes from '../Button/Button.module.css';
 
 const Button = () => {
 	return (
-		<div className={classes.button} id='button'>
-			<button>Save Changes</button>
+		<div>
+			<button className={classes.button} id='button'>
+				Save Changes
+			</button>
 		</div>
 	);
 };
