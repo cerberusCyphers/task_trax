@@ -2,30 +2,20 @@ import React from 'react';
 
 import ModuleHeader from './ModuleHeader/ModuleHeader';
 import ModuleProgress from './ModuleProgress/ModuleProgress';
-import TaskName from './TaskName/TaskName';
-import TaskNotes from './TaskNotes/TaskNotes';
-import TaskStatus from './TaskStatus/TaskStatus';
+import TaskRow from './TaskRow';
 
 import styles from './ModuleSection.module.css';
 
-const ModuleSection = () => {
-	// const moduleSections = [
-	// 	'Pending Orders Updates',
-	// 	'Planning Initial Development',
-	// 	'Construction Initial Development',
-	// ];
+const ModuleSection = props => {
 	return (
 		<section className={styles['tracker__container--module']}>
-			{/* {moduleSections.map(title => (
-				<h2>{title}</h2>
-			))} */}
-
-			<ModuleHeader />
+			<ModuleHeader project={props.project} />
 			<ModuleProgress />
-
-			<TaskName />
-			<TaskStatus />
-			<TaskNotes />
+			{props.tasks.map(task => (
+				<ul className={styles['tracker__container--module-list']}>
+					<TaskRow name={task.name} />
+				</ul>
+			))}
 		</section>
 	);
 };

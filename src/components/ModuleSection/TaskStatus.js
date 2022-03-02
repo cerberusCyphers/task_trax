@@ -1,11 +1,11 @@
 import React from 'react';
 
-import classes from '';
+import styles from './ModuleSection.module.css';
 
-const TaskStatus = task => {
+const TaskStatus = props => {
 	return (
-		<div className={classes['tracker__container--module--status']}>
-			<select className={classes['tracker__container--module--status_select']}>
+		<div className={styles['tracker__container--module-status']}>
+			<select className={styles['tracker__container--module-status_select']}>
 				<option value={'Pending'}>Pending</option>
 				<option value={'In Progress'}>In Progress</option>
 				<option value={'Complete'}>Complete</option>
