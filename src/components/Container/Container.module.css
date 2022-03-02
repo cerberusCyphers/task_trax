@@ -1,10 +1,9 @@
-.tracker {
+.tracker__container {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-around;
 	align-items: center;
-
-	/* background-image: url('../../../img/FB_IMG_1645056081883.jpg');
-	background-size: cover; */
-	height: 100%;
+	gap: 3rem;
+	/* height: 70vh; */
+	padding: 1rem;
 }

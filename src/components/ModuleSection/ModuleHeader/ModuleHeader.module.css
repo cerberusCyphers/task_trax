@@ -1,11 +1,12 @@
-.tracker__heading {
+.tracker__container--module-heading {
+	width: 60%;
+	text-align: center;
 	background-color: transparent;
 	border-radius: 2rem;
 	box-shadow: 2rem 2rem 5rem rgba(39, 34, 34, 0.555);
 }
-
-.tracker__heading--h1 {
-	font-size: 2rem;
+.tracker__container--module-heading_h3 {
+	font-size: 1.25rem;
 	color: rgba(255, 255, 255, 0.699);
 	padding: 0.25rem 1rem;
 }

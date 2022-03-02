@@ -1,8 +1,19 @@
 .button {
+	font-size: 1.5rem;
 	color: #fff;
 	background-color: rgba(179, 19, 19, 0.603);
 	height: 3rem;
 	border: 1px solid rgba(179, 19, 19, 0.803);
 	border-radius: 3rem;
-	margin-top: 1rem;
+	box-shadow: 1rem 1rem 3rem rgba(39, 34, 34, 0.555);
+}
+
+.button:hover {
+	background-color: rgba(64, 179, 19, 0.503);
+	border: 1px solid rgba(56, 158, 16, 0.903);
+}
+
+.button:active {
+	/* border: 1px solid rgba(179, 19, 19, 0.803); */
+	box-shadow: 1rem 1rem 2rem rgba(39, 34, 34, 0.555);
 }

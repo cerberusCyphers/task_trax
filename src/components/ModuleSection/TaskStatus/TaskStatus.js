@@ -1,0 +1,17 @@
+import React from 'react';
+
+import classes from '';
+
+const TaskStatus = task => {
+	return (
+		<div className={classes['tracker__container--module--status']}>
+			<select className={classes['tracker__container--module--status_select']}>
+				<option value={'Pending'}>Pending</option>
+				<option value={'In Progress'}>In Progress</option>
+				<option value={'Complete'}>Complete</option>
+				<option value={'Cancelled'}>Cancelled</option>
+			</select>
+		</div>
+	);
+};
+export default TaskStatus;
