@@ -6,7 +6,7 @@ import styles from './Container.module.css';
 
 const Container = props => {
 	return (
-		<container className={styles['tracker__container']} id='container'>
+		<div className={styles['tracker__container']} id='container'>
 			{props.projects.map(project => (
 				<ModuleSection
 					id={project.id}
@@ -15,7 +15,7 @@ const Container = props => {
 					status={project.status}
 				/>
 			))}
-		</container>
+		</div>
 	);
 };
 export default Container;

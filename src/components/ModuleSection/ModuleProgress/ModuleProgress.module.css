@@ -1,6 +1,6 @@
 .tracker__container--module-progress {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	height: 2.5rem;
 	width: 30%;
@@ -12,8 +12,8 @@
 
 .tracker__container--module-progress_bar {
 	height: 1.5rem;
-	width: 12rem;
+	width: 90%;
 	background-color: rgba(39, 34, 34, 0.555);
 	border: 1px solid rgba(39, 34, 34, 0.8);
-	/* border-radius: 50%; */
+	border-radius: 0.5rem;
 }

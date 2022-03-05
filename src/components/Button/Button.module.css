@@ -6,6 +6,7 @@
 	border: 1px solid rgba(179, 19, 19, 0.803);
 	border-radius: 3rem;
 	box-shadow: 1rem 1rem 3rem rgba(39, 34, 34, 0.555);
+	transition: all 0.2s;
 }
 
 .button:hover {
@@ -14,6 +15,6 @@
 }
 
 .button:active {
-	/* border: 1px solid rgba(179, 19, 19, 0.803); */
 	box-shadow: 1rem 1rem 2rem rgba(39, 34, 34, 0.555);
+	transform: scale(98%);
 }

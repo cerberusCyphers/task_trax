@@ -8,21 +8,36 @@ import MainHeader from './components/MainHeader/MainHeader';
 const moduleSections = [
 	{
 		id: 1,
-		project: 'Pending Orders Updates',
-		tasks: [{ name: 'Add Comments to XLSX' }],
-		status: ['pending'],
+		project: 'Reporting Expansion',
+		tasks: [
+			{
+				name: 'Add "Commitment" to Details',
+				status: 'in progress',
+				weight: 1,
+			},
+			{
+				name: 'Add Report to Reports',
+				status: 'in progress',
+				weight: 1,
+			},
+			{ name: 'Add Comments to XLSX', status: 'pending', weight: 1 },
+		],
 	},
 	{
 		id: 2,
 		project: 'Planning Initial Development',
-		tasks: [{ name: 'Render Fielding Report' }],
-		status: ['pending'],
+		tasks: [
+			{ name: 'Create Jobs Table', status: 'in progress', weight: 5 },
+			{ name: 'Render Fielding Report', status: 'pending', weight: 2 },
+		],
 	},
 	{
 		id: 3,
 		project: 'Construction Initial Development',
-		tasks: [{ name: 'Create Jobs Table' }],
-		status: ['pending'],
+		tasks: [
+			{ name: 'Create Jobs Table', status: 'in progress', weight: 2 },
+			{ name: 'Add Comments to XLSX', status: 'pending', weight: 1 },
+		],
 	},
 ];
 
